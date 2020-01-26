@@ -1,0 +1,8 @@
+{% extends "master.html" %}
+{% block bodydata %}
+<h2>Here is the list of item</h2>
+<h3>Testing session</h3>
+{% for item in items%}
+{{item}}
+{% endfor%}
+{% endblock bodydata %}
